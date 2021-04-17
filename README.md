@@ -42,6 +42,7 @@ Food Corner is the web based project. Developed using
 * CSS, HTML and Java Script for frontend.
 * We used xampp server to run this project in ubuntu operating system.
 * Website is mobile responsive also so you can view our [website](https://221b-bakers-street.000webhostapp.com/) on your mobile devices too.
+* If you face any problem you can raise a issue.
 
 ## Team
 * [Brian Pereira](https://github.com/Brian08p)
