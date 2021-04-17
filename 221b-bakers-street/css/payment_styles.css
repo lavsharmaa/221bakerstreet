@@ -1,0 +1,151 @@
+html {
+    font-family: pp-sans-small-light,Helvetica Neue,Arial,sans-serif;
+    letter-spacing: 1px;
+}
+.full-screen {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(18, 18, 47);
+    color: rgb(254, 254, 254);
+}
+.right {
+    float: right;
+}
+.container {
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 414px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 415px) and (max-width: 800px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+    .container {
+        width: 60%;
+        margin: 100px 20%;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .container {
+        width: 50%;
+        margin: 100px 25%;
+    }
+}
+@media (min-width: 1367px) and (max-width: 1400px) {
+    .container {
+        width: 40%;
+        margin: 100px 30%;
+    }
+}
+.payment-box .row {
+    display: flex;
+    padding: 20px;
+    line-height: 24px;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+.payment-box .first {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.payment-box .last {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.payment-box .no-border-bottom {
+    border-bottom: none !important;
+}
+.payment-box .options {
+    background-color: rgb(23, 22, 57);
+    border-bottom: 2px solid rgb(28, 28, 61);
+}
+.payment-box .blanks {
+    background-color: rgb(27, 27, 66);
+    border-top: 2px solid rgb(35, 36, 73);
+}
+.payment-box .col {
+    flex: 1;
+}
+.item .blank {
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.card-number {
+    width: 100% !important;
+}
+.item .title {
+    color: rgb(110, 112, 168);
+}
+.item .img {
+    margin: 0 5px;
+    height: 25px;
+}
+.label {
+    display: inline-block;
+}
+.radio {
+    display: none;
+}
+.radioInput {
+    background-color: rgb(30, 31, 65);
+    border: 2px solid rgb(47, 48, 81);
+    border-radius: 100%;
+    display: inline-block;
+    height: 16px;
+    margin-right: 20px;
+    vertical-align: middle;
+    width: 16px;
+    line-height: 24px;
+}
+.radio:checked + .radioInput:after {
+    background-color: rgb(15, 181, 177);
+    border: 2px solid rgba(15, 181, 177, 0.5);
+    border-radius: 100%;
+    font-size: 8px;
+    line-height: 16px;
+    position: relative;
+    top: -6px;
+    left: -2px;
+    content: "●";
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    height: 16px;
+    width: 16px;
+}
+.payment-btn {
+    outline: none;
+    margin-top: 40px;
+    background-color: rgb(15, 182, 178);
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+.payment-btn img {
+    position: relative;
+    top: 2px;
+    margin: 0 5px;
+    height: 20px;
+    line-height: 20px;
+}
+.info-icon {
+    height: 24px;
+}
