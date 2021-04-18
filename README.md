@@ -13,7 +13,7 @@ $password = ""; //password
 $dbname = "";  //database
 ?>
 ```
-- Switch on your xamp server and locate to ```localhost:8000``` and the website will be visible.
+- Switch on your xamp server, import the ```online_rest.sql``` located under SQL folder and go to ```localhost:8000``` and the website will be visible.
 - You can view the [website](https://221b-bakers-street.000webhostapp.com/)  which is hosted on ```000webhostapp```
 
 ## User side
